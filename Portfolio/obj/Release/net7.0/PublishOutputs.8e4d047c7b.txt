@@ -1,0 +1,7 @@
+/Users/anhadpreetsingh/Desktop/profile/Portfolio
+/Users/anhadpreetsingh/Desktop/profile/appsettings.Development.json
+/Users/anhadpreetsingh/Desktop/profile/appsettings.json
+/Users/anhadpreetsingh/Desktop/profile/Portfolio.dll
+/Users/anhadpreetsingh/Desktop/profile/Portfolio.deps.json
+/Users/anhadpreetsingh/Desktop/profile/Portfolio.runtimeconfig.json
+/Users/anhadpreetsingh/Desktop/profile/Portfolio.pdb

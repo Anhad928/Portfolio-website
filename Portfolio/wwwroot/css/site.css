@@ -1,0 +1,390 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the HTML and body tags fill out the viewport height */
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #eeeeee; /* Light gray background */
+    color: #2a3f5f; /* Deep blue text */
+}
+
+    .header h1 {
+        font-size: 50px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+/* Main content styles */
+.main-content {
+    flex-grow: 1; /* Grow to fill the available space */
+    display: flex; /* Establishes a flex container */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically in the container */
+    align-items: center; /* Center content horizontally */
+
+}
+
+/* Footer styles */
+.footer {
+    
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.contact-section {
+    /* Styles for the contact section */
+}
+
+/* Container for all buttons and email display */
+.social-container {
+    display: flex; /* Aligns children inline */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+    gap: 10px; /* Adds space between children */
+    margin-bottom: 20px; /* Optional: space below the container */
+}
+
+
+
+
+/* Ensures that images do not distort the line height */
+.social-button img {
+    height: 20px; /* Adjust size as needed */
+    width: auto;
+    margin-right: 8px;
+}
+
+.social-links a {
+    /* Styles for social links */
+    margin-right: 10px;
+}
+
+.social-links img {
+    /* Styles for social icons */
+    width: 24px; /* Example size, adjust as needed */
+    height: auto;
+}
+
+.social-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center the content inside the buttons */
+    padding: 1vw; /* Use viewport width for padding */
+    margin: 0.5vw;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 1vw; /* Use viewport width for font size */
+}
+
+    .social-button img {
+        width: 24px;
+        margin-right: 8px;
+    }
+
+    /* LinkedIn Button Styles */
+    .social-button.linkedin {
+        background-color: #0077b5; /* LinkedIn brand color */
+    }
+
+        .social-button.linkedin:hover {
+            border-color: #005582;
+        }
+
+    /* GitHub Button Styles */
+    .social-button.github {
+        background-color: #333; /* GitHub brand color */
+    }
+
+        .social-button.github:hover {
+            border-color: #2a2a2a;
+        }
+
+    .social-button.resume {
+        background-color: #008080; /* GitHub brand color */
+    }
+
+        .social-button.resume:hover {
+            border-color: #2a2a2a;
+        }
+
+    .social-button.email {
+        background-color: chocolate;
+    }
+
+        .social-button.email:hover {
+            border-color: #2a2a2a;
+        }
+
+
+#contact-form {
+    max-width: 600px; /* Set a max-width for the form if desired */
+    margin: auto; /* Center the form in the page */
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between the two inputs */
+}
+
+
+
+
+
+#contact-form input[type="email"], #contact-form input[type="text"] {
+    flex: 1; /* Both inputs will take up equal space */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-top: none;
+}
+
+
+#contact-form textarea {
+    width: 100%; /* Take up the full width of the form container */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-top: none;
+    height: 150px; /* Increase length as needed */
+    resize: vertical; /* Allows vertical resizing only */
+    margin-top: 50px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%; /* Optional: if you want the button to be full width */
+}
+
+/* Other styles remain unchanged */
+
+.project-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Puts maximum space between items */
+    padding: 20px;
+    background-color: #eeeeee;
+    /* Add additional styling as needed */
+}
+
+.project-image-container {
+    flex-basis: 50%; /* Takes up half the space of the container */
+    background: #ffffff;
+}
+
+.project-description-container {
+    flex-basis: 50%; /* Takes up the other half */
+    padding-left: 20px; /* Add some space between the text and the images */
+}
+
+.project-image {
+    width: 100%; /* Makes image responsive within its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-bottom: 10px; /* Space between the images if stacked */
+}
+
+.project-image1 {
+    width:  100%; /* Makes image responsive within its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    padding-left:10%;
+    margin-bottom: 10px; /* Space between the images if stacked */
+}
+
+.bubble {
+    position: absolute;
+    background-color: rgba(128, 0, 128, 0.5); /* semi-transparent white bubbles */
+    border-radius: 50%;
+    opacity: 0; /* Bubbles start out invisible */
+    animation: fall 7s infinite linear;
+}
+
+#bubble1 {
+    width: 80px;
+    height: 80px;
+    bottom: -80px; /* Start below the view */
+    left: 60%;
+    animation-delay: 0s;
+}
+
+#bubble2 {
+    width: 120px;
+    height: 120px;
+    bottom: -120px; /* Start below the view */
+    left: 50%;
+    animation-delay: 3s;
+}
+
+#bubble3 {
+    width: 60px;
+    height: 60px;
+    bottom: -60px; /* Start below the view */
+    left: 0%;
+    animation-delay: 6s;
+}
+
+/* Add more bubbles with different sizes, positions, and delays as needed */
+
+@keyframes fall {
+    0% {
+        top: -150px; /* Start above the container */
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 100%; /* End at the bottom of the container */
+        opacity: 0;
+    }
+}
+
+
+.copy-confirmation {
+    display: none; /* Hidden by default */
+    position: absolute; /* Position it relative to its parent */
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #555;
+    font-size: 0.9em;
+    left: 100%; /* Adjust as necessary */
+    top: 0; /* Adjust as necessary */
+    white-space: nowrap;
+    z-index: 1000; /* Make sure it's above other items */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+    /* You can also add an arrow to the tooltip if desired */
+    .copy-confirmation::after {
+        content: 'Email copied!';
+        position: absolute;
+        top: 50%;
+        right: 100%; /* To the left of the tooltip */
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent #f8f8f8 transparent transparent;
+    }
+
+
+
+
+@media (max-width: 768px) {
+    .social-container, .input-row {
+        flex-direction: column;
+    }
+
+    .social-button, .button {
+        width: 100%;
+        text-align: center;
+    }
+
+        .social-button img {
+            margin: 0 auto;
+        }
+
+    .project-container {
+        flex-direction: column;
+    }
+
+    .project-image-container,
+    .project-description-container {
+        flex-basis: 100%;
+    }
+
+    
+    
+}
+
+.bookshelf {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust based on your needs */
+    background: #c0a080; /* Color of the bookshelf */
+}
+
+.book {
+    width: 30px; /* Width of the book */
+    height: 100px; /* Height of the book */
+    background-color: #f00; /* Book color, use different colors for each book if desired */
+    position: absolute;
+    bottom: 0; /* Align books to bottom of the bookshelf */
+    transform: translateX(-100%); /* Start position - hidden to the left */
+    animation: slideIn 1s forwards; /* Animation applied to all books */
+}
+
+/* Define your keyframes for the background animation */
+@keyframes slideBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+/* Apply the animation to the project container */
+.library-database-manager-bg {
+    /* Use a background image that represents your library database concept */
+    background-image: url('./images/book.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideBackground 10s infinite linear;
+}
+
+
+
+
