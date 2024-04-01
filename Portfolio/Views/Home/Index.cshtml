@@ -1,118 +1,12 @@
-﻿<div class="header">
+﻿
+<div class="header">
+
+
     <h1>Anhadpreet Singh</h1>
     <h2>Software Developer</h2>
-    <p>Designs driven by creative coding</p>
-    <a href="#contact-form" class="button">Get in touch</a>
-</div>
+    <p style="color: white">avr</p>
+    <a href="@Url.Action("AboutMe", "Home")" class="about-button">About me</a>
 
-<div class="main_content">
-
-
-
-
-    @{
-        ViewData["Title"] = "Home Page";
-    }
-
-    <div class="container">
-        @* Other content *@
-
-
-
-
-        <!-- Other details or buttons can go here -->
-
-        <div class="project-container floating-background">
-            <div class="project" data-aos="fade-up" data-aos-duration="1000">
-                <div class="project-container">
-                    <div class="project-image-container">
-                        <!-- Project images here -->
-                        
-                        <img src="~/images/image.png" alt="Expense Manager App" class="project-image" />
-                    </div>
-                    <div class="project-description-container">
-                        <!-- Project text here -->
-
-                        <h2 class="project-title">Expense Manager</h2>
-                        <p class="project-description">Android App Development</p>
-                        <p class="project-subtitle">Android Studio and Figma</p>
-                        <p class="project-text">
-                            Using the Android Studio for making app functionality and UI inspired by the
-                            sample mockups made on Figma.
-                        </p>
-                    </div>
-
-
-
-                </div>
-
-
-
-            </div>
-
-
-            @* Repeat for each project *@
-        </div>
-
-        <div class="project-container floating-background">
-
-
-            <div class="project" data-aos="fade-up" data-aos-duration="1000">
-
-
-
-                <div class="project-container">
-                    <div class="project-image-container">
-                        <!-- Project images here -->
-
-                        <img src="~/images/image2.png" alt="Library DataBase Manager" class="project-image1" />
-                    </div>
-
-                    <div class="project-description-container">
-
-                        <!-- Project text here -->
-
-
-                        <h2 class="project-title">Library DataBase Manager</h2>
-                        <p class="project-description">Manages Large Library Database.</p>
-                        <p class="project-subtitle">Python</p>
-                        <p class="project-text">
-                            Using Python I wrote a code which takes data from a file about book name, Author,
-                            Date Borrowed and Date Returned. My code reads all the data and presents into a new text file
-                            in a properly formatted and human readible way.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-container floating-background">
-        <div class="project" data-aos="fade-up" data-aos-duration="1000">
-            <div class="project-container">
-                <div class="project-image-container">
-                    <!-- Project images here -->
-
-                    <img src="~/images/image3.png" alt="Dice Roller Game" class="project-image1" />
-                </div>
-                <div class="project-description-container">
-                    <!-- Project text here -->
-
-                    <h2 class="project-title">Dice Roller Game</h2>
-                    <p class="project-description">Dice Roller Game which generated random numbers for players in C</p>
-                    <p class="project-subtitle">Language used in this project is C.</p>
-                    <p class="project-text">
-                        Using C I wrote code for a dice-roller game which takes r for roll and q for quitting the turn
-                        from the user and when any user reaches 100 that user wins the game. And when a user enters "q"
-                        the player turn switchs.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-        @* Repeat for each project *@
-    </div>
 
     <div class="contact-section">
 
@@ -135,34 +29,130 @@
                 <img src="~/icons/icons8-resume-50.png" alt="Resume" />
                 Resume
             </a>
-            <div id="copy-confirmation" class="copy-confirmation" style="display: none;">
-                Email copied to clipboard!
-            </div>
 
-
-            <a href="javascript:void(0)" class="social-button email" onclick="copyEmailToClipboard()">
-                anhadpre@ualberta.ca
-            </a>
         </div>
-
-        <form id="contact-form" action="/contact" method="post">
-            <div class="input-row">
-                <!-- Flex container for side-by-side inputs -->
-
-                <input type="email" name="visitorEmail" placeholder="Your Email Address" required />
-                <input type="text" name="visitorName" placeholder="Your Name" required />
-
-            </div>
-
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
 
 
 
 
     </div>
 </div>
+
+<div class="main_content">
+
+
+
+
+    @{
+        ViewData["Title"] = "Home Page";
+    }
+
+    <div class="container">
+        @* Other content *@
+
+
+
+
+
+
+        <!-- Other details or buttons can go here -->
+
+        <div class="project-container floating-background">
+            <div class="project" data-aos="fade-up" data-aos-duration="1000">
+                <div class="project-container">
+                    <div class="project-image-container">
+                        <!-- Project images here -->
+                        <a href="@Url.Action("ExpenseManager", "Home")"class="about-button">
+                        <img src="~/images/image.png" alt="Expense Manager App" class="project-image" />
+                        </a>
+                    </div>
+                    <div class="project-description-container">
+                        <!-- Project text here -->
+
+                        <h2 class="project-title">Expense Manager</h2>
+                        <p class="project-description">Android App Development</p>
+                        <p class="project-subtitle">Android Studio and Figma</p>
+                        <p class="project-text">
+                            Using the Android Studio for making app functionality and UI inspired by the
+                            sample mockups made on Figma.
+                        </p>
+                      
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+            @* Repeat for each project *@
+        </div>
+
+
+
+        <div class="project" data-aos="zoom-out-up" data-aos-duration="1000">
+
+
+
+            <div class="project-container">
+                <div class="project-image-container">
+                    <!-- Project images here -->
+                    <a href="@Url.Action("Library", "Home")"class="about-button">
+                        <img src="~/images/image2.png" alt="Library DataBase Manager" class="project-image1" />
+                     </a>
+                </div>
+
+                <div class="project-description-container">
+
+                    <!-- Project text here -->
+
+
+                    <h2 class="project-title">Library DataBase Manager</h2>
+                    <p class="project-description">Manages Large Library Database.</p>
+                    <p class="project-subtitle">Python</p>
+                    <p class="project-text">
+                        Using Python I wrote a code which takes data from a file about book name, Author,
+                        Date Borrowed and Date Returned. My code reads all the data and presents into a new text
+                        file in a properly formatted and human readible way.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-container floating-background">
+            <div class="project" data-aos="fade-up" data-aos-duration="1000">
+                <div class="project-container">
+                    <div class="project-image-container">
+                        <!-- Project images here -->
+                        <a href="@Url.Action("Robot", "Home")" class="about-button">
+                            <img src="~/images/black line.png" alt="Black Line Follower Robot" class="project-image1" />
+                        </a>
+                    </div>
+                    <div class="project-description-container">
+                        <!-- Project text here -->
+
+                        <h2 class="project-title">Black Line Follower Robot</h2>
+                        <p class="project-description">A robot which follows the black line as a desired path</p>
+                        <p class="project-subtitle">JavaScript and Hardware Embedded Systems</p>
+                        <p class="project-text">
+                            Using Arduino and JavaScript, in a team of 3 and an associate of IIT-Delhi, This robot
+                            follows the Black Line as a path and autonomously follow the desired path powered by batteries and
+                            scanning path through sensors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            @* Repeat for each project *@
+        </div>
+
+
+    </div>
 
 
 

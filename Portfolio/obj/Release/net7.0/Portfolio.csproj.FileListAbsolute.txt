@@ -28,3 +28,4 @@
 /Users/anhadpreetsingh/Projects/Portfolio/Portfolio/obj/Release/net7.0/Portfolio.pdb
 /Users/anhadpreetsingh/Projects/Portfolio/Portfolio/obj/Release/net7.0/Portfolio.genruntimeconfig.cache
 /Users/anhadpreetsingh/Projects/Portfolio/Portfolio/obj/Release/net7.0/ref/Portfolio.dll
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/obj/Release/net7.0/Portfolio.sourcelink.json

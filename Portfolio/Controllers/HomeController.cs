@@ -1,23 +1,41 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Portfolio.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Net.Mail;
+using System.Threading.Tasks;
 
-namespace Portfolio.Controllers;
-
-public class HomeController : Controller
+namespace Portfolio.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
-    }
-    [HttpPost]
-    public IActionResult Contact(string email, string name, string message)
-    {
-        // Handle the form submission here. You might save the message to a database or send an email.
+      
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-        return RedirectToAction("Index");
-    }
 
+
+        
+        
+        public IActionResult AboutMe()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult ExpenseManager()
+        {
+            return View();
+        }
+        public IActionResult Library()
+        {
+            return View();
+        }
+        public IActionResult Robot()
+        {
+            return View();
+        }
+    }
 }
-
-

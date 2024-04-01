@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/anhadpreetsingh/Projects/Portfolio/Portfolio
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/AboutMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dE1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/ExpenseManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FeHBlbnNlTWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/Library.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaWJyYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Home/Robot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Sb2JvdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/Views/Shared/Error.cshtml]

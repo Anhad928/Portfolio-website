@@ -29,8 +29,20 @@
       "PackagePath": "staticwebassets/icons/icons8-resume-50.png"
     },
     {
+      "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/IMG_1441.jpg",
+      "PackagePath": "staticwebassets/images/IMG_1441.jpg"
+    },
+    {
       "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/Screenshot 2023-12-31 at 1.05.12 AM.png",
       "PackagePath": "staticwebassets/images/Screenshot 2023-12-31 at 1.05.12 AM.png"
+    },
+    {
+      "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/black line.png",
+      "PackagePath": "staticwebassets/images/black line.png"
+    },
+    {
+      "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/book.png",
+      "PackagePath": "staticwebassets/images/book.png"
     },
     {
       "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/image.png",
@@ -51,6 +63,10 @@
     {
       "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/phone2.png",
       "PackagePath": "staticwebassets/images/phone2.png"
+    },
+    {
+      "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/images/purple man.png",
+      "PackagePath": "staticwebassets/images/purple man.png"
     },
     {
       "Id": "/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/wwwroot/js/site.js",

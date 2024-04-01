@@ -1,35 +1,31 @@
 ﻿<Properties StartupConfiguration="{EA707776-0563-4E55-A1E5-295971D2880E}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Portfolio PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Portfolio/Views/Home/Library.cshtml">
     <Files>
-      <File FileName="Portfolio/wwwroot/js/site.js" Line="69" Column="1" IsPinned="True" />
-      <File FileName="Portfolio/Views/Home/Index.cshtml" Line="77" Column="68" IsPinned="True" />
-      <File FileName="Portfolio/wwwroot/css/site.css" Line="206" Column="15" />
+      <File FileName="Portfolio/wwwroot/js/site.js" Line="52" Column="1" IsPinned="True" />
+      <File FileName="Portfolio/Views/Home/Index.cshtml" Line="148" Column="1" IsPinned="True" />
+      <File FileName="Portfolio/Views/Home/AboutMe.cshtml" Line="79" Column="29" />
+      <File FileName="Portfolio/Controllers/HomeController.cs" Line="34" Column="2" />
+      <File FileName="Portfolio/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="Portfolio/Views/Home/Library.cshtml" Line="42" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Portfolio" expanded="True">
-            <Node name="Portfolio" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+            <Node name="Portfolio">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+              <Node name="Views">
+                <Node name="Home">
+                  <Node name="Library.cshtml" selected="True" />
                 </Node>
               </Node>
-              <Node name="wwwroot" expanded="True">
+              <Node name="wwwroot">
                 <Node name="css" expanded="True" />
                 <Node name="images" expanded="True" />
-                <Node name="js" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -41,4 +37,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

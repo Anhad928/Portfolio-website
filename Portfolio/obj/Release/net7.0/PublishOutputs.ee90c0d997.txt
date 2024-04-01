@@ -1,0 +1,7 @@
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/Portfolio
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/appsettings.json
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/Portfolio.dll
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/Portfolio.deps.json
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/Portfolio.runtimeconfig.json
+/Users/anhadpreetsingh/Projects/Portfolio/Portfolio/bin/Release/net7.0/publish/Portfolio.pdb
